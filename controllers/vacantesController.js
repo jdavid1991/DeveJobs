@@ -230,8 +230,6 @@ exports.buscadorVacante = async (req, res, next) => {
     }
   }).lean()
 
-  console.log(vacantes);
-
   res.render('home', {
     nombrePagina: `Resultado para la busqueda: ${req.body.q}`,
     barra: true,
