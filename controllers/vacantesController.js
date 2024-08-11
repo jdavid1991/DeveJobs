@@ -236,3 +236,5 @@ exports.buscadorVacante = async (req, res, next) => {
     vacantes
   })
 }
+
+console.log(prueba);
